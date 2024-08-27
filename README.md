@@ -11,7 +11,7 @@
 * Open “eclipse”, right-click on “Package Explorer” window, click import.
 * Select “Git”-> “Projects from Git” and click “next”.
 * Select “clone url” and click “next”.
-* Paste “https://github.com/md-hasibur-rahman/CS6304_SimpleWordCount” in the “url” textbox, and click “next”. 
+* Paste “https://github.com/gxanesh/CS6304_SimpleWordCount” in the “url” textbox, and click “next”. 
 * Choose “Import existing project” and click “finish”.
 
 ### Referencing libraries:
@@ -42,7 +42,7 @@ hadoop fs -rm -r OutputFolder                                     //to remove "O
 
 
 ### Common Errors:
-Error 1: mkdir: Call From cs6304-mrpk9-02/127.0.1.1 to localhost:9000 failed on connection exception: java.net.ConnectException: Connection refused  
+Error 1: mkdir: Call From cs6304-gs37r-01/127.0.1.1 to localhost:9000 failed on connection exception: java.net.ConnectException: Connection refused  
 Explanation and Fix: In general this error comes if you are running hadoop first time on your VM after a reset. The below commands will fix it.
 ```
 stop-all.sh
