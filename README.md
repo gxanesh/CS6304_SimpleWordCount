@@ -8,14 +8,16 @@
 * Default Password:         <mst_password>
 
 ### Importing Project:
-* Open “Eclipse”, right-click on the “Package Explorer” window, and click import.
+* Open “Eclipse”, Right-Click on the “Package Explorer” window, and click import.
 * Select “Git”-> “Projects from Git” and click “Next”.
 * Select “Clone URI” and click “Next”.
-* Copy and Paste “https://github.com/gxanesh/CS6304_SimpleWordCount” in the “URI” textbox, and click “Next”. 
-* Choose “Import existing project” and click “Finish”.
+* Copy and Paste “https://github.com/gxanesh/CS6304_SimpleWordCount” in the “URI” textbox, and click “Next”.
+* Select the "master" branch on Branch Selection and Click "Next"
+* For Local Destination, Keep the Directory Field as it is: "/home/<your_SSO>/git/CS6304_SimpleWordCount" and Click "Next"
+* Choose “Import existing project”, Click "Next" then Click “Finish”.
 
 ### Referencing libraries:
-* Right-click on the project and select “build path”-> “configure build path” ->” libraries”->” add external jars”.
+* Right-Click on the project and select “build path”-> “configure build path” ->” libraries”->” add external jars”.
 * Go to "home" -> "git" -> "SimpleWordCount" -> "lib" and select all jars and click open-> Click Apply and Close.
 
 ### Input file:
