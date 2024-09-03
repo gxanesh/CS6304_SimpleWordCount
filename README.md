@@ -17,8 +17,8 @@
 * Choose “Import existing project”, Click "Next" then Click “Finish”.
 
 ### Referencing libraries:
-* Right-Click on the project and select “build path”-> “configure build path” ->” Libraries”->” Add External Jars”.
-* Go to "home" -> "git" -> "SimpleWordCount" -> "lib" and select all jars and click open-> Click Apply and Close.
+* Right-click on the project and select “build path”-> “configure build path” ->” Libraries”->” Add External Jars”.
+* Go to "home" -> "git" -> "SimpleWordCount" -> "lib" and select all jars and click "Open"-> Click "Apply and Close".
 
 ### Input file:
 * Open folder "file", you will see the input file named "WordCount.txt"
