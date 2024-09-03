@@ -11,7 +11,7 @@
 * Open “Eclipse”, right-click on the “Package Explorer” window, and click import.
 * Select “Git”-> “Projects from Git” and click “Next”.
 * Select “Clone URI” and click “Next”.
-* Paste “https://github.com/gxanesh/CS6304_SimpleWordCount” in the “URL” textbox, and click “Next”. 
+* Copy and Paste “https://github.com/gxanesh/CS6304_SimpleWordCount” in the “URI” textbox, and click “Next”. 
 * Choose “Import existing project” and click “Finish”.
 
 ### Referencing libraries:
