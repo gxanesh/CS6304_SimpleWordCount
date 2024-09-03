@@ -26,7 +26,7 @@
 ### Output jar:
 * Right-click on the project and select "Export".
 * Choose type "Java" -> "Jar file" and click "next".
-* Select the export destination as "home" -> "git" -> "SimpleWordCount" -> "bin" -> Set Name "output.jar" and click "Save".
+* Select the export destination as "home" -> "git" -> "SimpleWordCount" -> "bin" -> Set Name "output.jar" and click "Save" then Click "Finish".
 
 ### Hadoop Commands:
 ```
