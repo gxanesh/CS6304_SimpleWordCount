@@ -31,12 +31,14 @@
 ### Hadoop Commands:
 ```
 hadoop fs -mkdir InputFolder                                      //to create a new input folder
-hadoop fs -copyFromLocal <input file> InputFolder                  //to copy a file from local directory to hadoop environment
+hadoop fs -copyFromLocal <input file> InputFolder                  //to copy a file from the local directory to Hadoop environment
+Eg:hadoop fs -copyFromLocal '/home/gs37r/git/CS6304_SimpleWordCount/file/WordCountNew.txt'  InputFolder
 hadoop fs -ls InputFolder                                          //to see the files inside "InputFolder"
-hadoop jar <jar file name> <class name> InputFolder OutputFolder   //running mapreduce operation
+hadoop jar <jar file name> <class name> InputFolder OutputFolder   //running MapReduce operation
+Eg: hadoop jar '/home/gs37r/git/CS6304_SimpleWordCount/bin/output.jar'  WordCount "InputFolder/WordCountNew.txt" OutputFolder
 hadoop fs -ls OutputFolder                                        //to see the files inside "OutputFolder"
 hadoop fs -cat OutputFolder/part-r-00000                          //to see the content inside "OutputFolder/part-r-00000" file
-hadoop fs -rm -r OutputFolder                                     //to remove "OutputFolder" directory and all its files
+hadoop fs -rm -r OutputFolder                                     //to remove the "OutputFolder" directory and all its files
 ```
 
 - remove OutputFolder before generating the next results.
