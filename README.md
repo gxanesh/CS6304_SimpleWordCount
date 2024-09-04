@@ -30,7 +30,7 @@
 
 ### Hadoop Commands:
 ```
-hadoop fs -mkdir InputFolder                                      //to create a new input folder
+hadoop fs -mkdir -p InputFolder                                      //to create a new input folder
 hadoop fs -copyFromLocal <input file> InputFolder                  //to copy a file from the local directory to the Hadoop environment
 Eg:hadoop fs -copyFromLocal '/home/gs37r/git/CS6304_SimpleWordCount/file/WordCount.txt'  InputFolder
 hadoop fs -ls InputFolder                                          //to see the files inside "InputFolder"
